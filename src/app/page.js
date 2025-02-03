@@ -7,6 +7,7 @@ export default function HomePage() {
   const handleNavigation = () => {
     router.push("/dashboard");
   };
+  console.log("Home page");
   return (
     <Fragment>
       <div className="text-center">

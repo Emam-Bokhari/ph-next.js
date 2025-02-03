@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Fragment } from "react";
 
 export default function Navbar() {
-  console.log("Navigation");
   return (
     <Fragment>
       <div className="py-4 bg-indigo-500 text-white">
